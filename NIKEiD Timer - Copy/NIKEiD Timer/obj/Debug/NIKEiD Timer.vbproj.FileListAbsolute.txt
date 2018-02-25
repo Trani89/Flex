@@ -35,3 +35,16 @@ B:\Desktop\NIKEiD Timer\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.
 B:\Desktop\NIKEiD Timer\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.exe
 B:\Desktop\NIKEiD Timer\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.xml
 B:\Desktop\NIKEiD Timer\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.pdb
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\bin\Debug\NIKEiD Timer.exe.config
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\bin\Debug\NIKEiD Timer.exe
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\bin\Debug\NIKEiD Timer.pdb
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\bin\Debug\NIKEiD Timer.xml
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.vbprojResolveAssemblyReference.cache
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD_Timer.Form1.resources
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD_Timer.Form2.resources
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD_Timer.Resources.resources
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.vbproj.GenerateResource.Cache
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.vbproj.CoreCompileInputs.cache
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.exe
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.xml
+B:\Documents\GitHub\Flex\NIKEiD Timer - Copy\NIKEiD Timer\obj\Debug\NIKEiD Timer.pdb

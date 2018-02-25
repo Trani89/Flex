@@ -42,6 +42,7 @@
     Private Sub TextBox2_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox2.KeyPress
         TextBox2.MaxLength = 17
         TextBox2.Text = TextBox2.Text.Trim()
+        TextBox2.Text = UCase(TextBox2.Text)
         If e.KeyChar = ChrW(Keys.Enter) Then
             If TextBox2.Text.Trim.Length < 17 Or InStr(16, TextBox2.Text, ("L")) Then
                 MsgBox(MSG_EMPTY_FIELD)
@@ -55,6 +56,7 @@
     Private Sub TextBox3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox3.KeyPress
         TextBox3.MaxLength = 17
         TextBox3.Text = TextBox3.Text.Trim()
+        TextBox3.Text = UCase(TextBox3.Text)
         If e.KeyChar = ChrW(Keys.Enter) Then
             If TextBox3.Text.Trim.Length < 17 Or InStr(16, TextBox3.Text, ("R")) Then
                 MsgBox(MSG_EMPTY_FIELD)

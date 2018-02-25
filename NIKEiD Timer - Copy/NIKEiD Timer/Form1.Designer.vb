@@ -23,6 +23,7 @@ Partial Class Form1
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TableLayoutPanel7 = New System.Windows.Forms.TableLayoutPanel()
@@ -1559,7 +1560,7 @@ Partial Class Form1
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.46154!))
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel27.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel27.Size = New System.Drawing.Size(93, 53)
+        Me.TableLayoutPanel27.Size = New System.Drawing.Size(120, 122)
         Me.TableLayoutPanel27.TabIndex = 2
         '
         'Label93
@@ -1567,32 +1568,32 @@ Partial Class Form1
         Me.Label93.AutoSize = True
         Me.Label93.Location = New System.Drawing.Point(3, 0)
         Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(51, 7)
+        Me.Label93.Size = New System.Drawing.Size(51, 13)
         Me.Label93.TabIndex = 0
         Me.Label93.Text = "Label127"
         '
         'Label94
         '
         Me.Label94.AutoSize = True
-        Me.Label94.Location = New System.Drawing.Point(3, 7)
+        Me.Label94.Location = New System.Drawing.Point(3, 23)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(51, 12)
+        Me.Label94.Size = New System.Drawing.Size(51, 13)
         Me.Label94.TabIndex = 0
         Me.Label94.Text = "Label127"
         '
         'Label95
         '
         Me.Label95.AutoSize = True
-        Me.Label95.Location = New System.Drawing.Point(3, 19)
+        Me.Label95.Location = New System.Drawing.Point(3, 62)
         Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(51, 12)
+        Me.Label95.Size = New System.Drawing.Size(51, 13)
         Me.Label95.TabIndex = 0
         Me.Label95.Text = "Label127"
         '
         'Label96
         '
         Me.Label96.AutoSize = True
-        Me.Label96.Location = New System.Drawing.Point(3, 31)
+        Me.Label96.Location = New System.Drawing.Point(3, 101)
         Me.Label96.Name = "Label96"
         Me.Label96.Size = New System.Drawing.Size(51, 13)
         Me.Label96.TabIndex = 1
@@ -1664,10 +1665,10 @@ Partial Class Form1
         Me.TableLayoutPanel29.Location = New System.Drawing.Point(260, 3)
         Me.TableLayoutPanel29.Name = "TableLayoutPanel29"
         Me.TableLayoutPanel29.RowCount = 4
-        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 35.61644!))
-        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 26.0274!))
-        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.46154!))
-        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.876543!))
+        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.51852!))
+        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 71.60493!))
+        Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38.0!))
         Me.TableLayoutPanel29.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel29.Size = New System.Drawing.Size(115, 122)
         Me.TableLayoutPanel29.TabIndex = 2
@@ -1685,7 +1686,7 @@ Partial Class Form1
         'Label102
         '
         Me.Label102.AutoSize = True
-        Me.Label102.Location = New System.Drawing.Point(3, 50)
+        Me.Label102.Location = New System.Drawing.Point(3, 17)
         Me.Label102.Name = "Label102"
         Me.Label102.Size = New System.Drawing.Size(51, 13)
         Me.Label102.TabIndex = 0
@@ -1694,7 +1695,7 @@ Partial Class Form1
         'Label103
         '
         Me.Label103.AutoSize = True
-        Me.Label103.Location = New System.Drawing.Point(3, 81)
+        Me.Label103.Location = New System.Drawing.Point(3, 62)
         Me.Label103.Name = "Label103"
         Me.Label103.Size = New System.Drawing.Size(51, 13)
         Me.Label103.TabIndex = 0
@@ -1703,7 +1704,7 @@ Partial Class Form1
         'Label104
         '
         Me.Label104.AutoSize = True
-        Me.Label104.Location = New System.Drawing.Point(3, 101)
+        Me.Label104.Location = New System.Drawing.Point(3, 100)
         Me.Label104.Name = "Label104"
         Me.Label104.Size = New System.Drawing.Size(51, 13)
         Me.Label104.TabIndex = 1
@@ -1725,7 +1726,7 @@ Partial Class Form1
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.46154!))
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel30.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel30.Size = New System.Drawing.Size(125, 111)
+        Me.TableLayoutPanel30.Size = New System.Drawing.Size(125, 122)
         Me.TableLayoutPanel30.TabIndex = 2
         '
         'Label105
@@ -1740,7 +1741,7 @@ Partial Class Form1
         'Label106
         '
         Me.Label106.AutoSize = True
-        Me.Label106.Location = New System.Drawing.Point(3, 20)
+        Me.Label106.Location = New System.Drawing.Point(3, 23)
         Me.Label106.Name = "Label106"
         Me.Label106.Size = New System.Drawing.Size(51, 13)
         Me.Label106.TabIndex = 0
@@ -1749,7 +1750,7 @@ Partial Class Form1
         'Label107
         '
         Me.Label107.AutoSize = True
-        Me.Label107.Location = New System.Drawing.Point(3, 55)
+        Me.Label107.Location = New System.Drawing.Point(3, 62)
         Me.Label107.Name = "Label107"
         Me.Label107.Size = New System.Drawing.Size(51, 13)
         Me.Label107.TabIndex = 0
@@ -1758,7 +1759,7 @@ Partial Class Form1
         'Label108
         '
         Me.Label108.AutoSize = True
-        Me.Label108.Location = New System.Drawing.Point(3, 90)
+        Me.Label108.Location = New System.Drawing.Point(3, 101)
         Me.Label108.Name = "Label108"
         Me.Label108.Size = New System.Drawing.Size(51, 13)
         Me.Label108.TabIndex = 1
@@ -1780,7 +1781,7 @@ Partial Class Form1
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 38.46154!))
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
         Me.TableLayoutPanel31.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel31.Size = New System.Drawing.Size(93, 103)
+        Me.TableLayoutPanel31.Size = New System.Drawing.Size(54, 44)
         Me.TableLayoutPanel31.TabIndex = 2
         '
         'Label109
@@ -1788,34 +1789,34 @@ Partial Class Form1
         Me.Label109.AutoSize = True
         Me.Label109.Location = New System.Drawing.Point(3, 0)
         Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(51, 13)
+        Me.Label109.Size = New System.Drawing.Size(45, 5)
         Me.Label109.TabIndex = 0
         Me.Label109.Text = "Label127"
         '
         'Label110
         '
         Me.Label110.AutoSize = True
-        Me.Label110.Location = New System.Drawing.Point(3, 19)
+        Me.Label110.Location = New System.Drawing.Point(3, 5)
         Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(51, 13)
+        Me.Label110.Size = New System.Drawing.Size(45, 9)
         Me.Label110.TabIndex = 0
         Me.Label110.Text = "Label127"
         '
         'Label111
         '
         Me.Label111.AutoSize = True
-        Me.Label111.Location = New System.Drawing.Point(3, 50)
+        Me.Label111.Location = New System.Drawing.Point(3, 14)
         Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(51, 13)
+        Me.Label111.Size = New System.Drawing.Size(45, 9)
         Me.Label111.TabIndex = 0
         Me.Label111.Text = "Label127"
         '
         'Label112
         '
         Me.Label112.AutoSize = True
-        Me.Label112.Location = New System.Drawing.Point(3, 81)
+        Me.Label112.Location = New System.Drawing.Point(3, 23)
         Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(51, 13)
+        Me.Label112.Size = New System.Drawing.Size(45, 21)
         Me.Label112.TabIndex = 1
         Me.Label112.Text = "Label129"
         '
@@ -1825,7 +1826,7 @@ Partial Class Form1
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 28.12807!))
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 71.87193!))
         Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 157.0!))
-        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 153.0!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 156.0!))
         Me.TableLayoutPanel5.Controls.Add(Me.Label127, 0, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.TextBox1, 1, 0)
         Me.TableLayoutPanel5.Controls.Add(Me.lbl_second, 2, 0)
@@ -1845,7 +1846,7 @@ Partial Class Form1
         Me.Label127.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label127.Location = New System.Drawing.Point(3, 0)
         Me.Label127.Name = "Label127"
-        Me.Label127.Size = New System.Drawing.Size(156, 39)
+        Me.Label127.Size = New System.Drawing.Size(155, 39)
         Me.Label127.TabIndex = 7
         Me.Label127.Text = "SCAN POSITION"
         Me.Label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -1854,16 +1855,16 @@ Partial Class Form1
         '
         Me.TextBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(165, 3)
+        Me.TextBox1.Location = New System.Drawing.Point(164, 3)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(408, 35)
+        Me.TextBox1.Size = New System.Drawing.Size(406, 35)
         Me.TextBox1.TabIndex = 8
         '
         'lbl_second
         '
         Me.lbl_second.AutoSize = True
         Me.lbl_second.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_second.Location = New System.Drawing.Point(579, 0)
+        Me.lbl_second.Location = New System.Drawing.Point(576, 0)
         Me.lbl_second.Name = "lbl_second"
         Me.lbl_second.Size = New System.Drawing.Size(141, 39)
         Me.lbl_second.TabIndex = 9
@@ -1874,9 +1875,9 @@ Partial Class Form1
         '
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.PictureBox1.Image = Global.NIKEiD_Timer.My.Resources.Resources.white_on_black_1
-        Me.PictureBox1.Location = New System.Drawing.Point(736, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(733, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(148, 33)
+        Me.PictureBox1.Size = New System.Drawing.Size(151, 33)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
@@ -1932,6 +1933,7 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(893, 590)
         Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.KeyPreview = True
         Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
@@ -2144,7 +2146,6 @@ Partial Class Form1
     Friend WithEvents Label99 As Label
     Friend WithEvents Label100 As Label
     Friend WithEvents TableLayoutPanel29 As TableLayoutPanel
-    Friend WithEvents Label101 As Label
     Friend WithEvents Label102 As Label
     Friend WithEvents Label103 As Label
     Friend WithEvents Label104 As Label
@@ -2159,4 +2160,5 @@ Partial Class Form1
     Friend WithEvents Label111 As Label
     Friend WithEvents Label112 As Label
     Friend WithEvents Timer3 As Timer
+    Friend WithEvents Label101 As Label
 End Class
